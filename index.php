@@ -1,9 +1,8 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Vjeko Mistrafovic
- * Date: 28.01.2019
- * Time: 10:12
- */
-
+require "UserCredentialsDB.php";
 echo 'Hello World';
+
+$config = new \Doctrine\DBAL\Configuration();
+//..
+
+$conn = \Doctrine\DBAL\DriverManager::getConnection($connectionParams, $config);

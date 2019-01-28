@@ -1,0 +1,14 @@
+{
+    "name": "daniel/htl3r-php-dbal",
+    "description": "php dbal demo",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Daniel",
+            "email": "6144@htl.rennweg.at"
+        }
+    ],
+    "require": {
+        "doctrine/dbal": "^2.9"
+    }
+}
